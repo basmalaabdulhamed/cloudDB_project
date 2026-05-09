@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Hady/OneDrive/Desktop/semster 2/cloud db/project db/hr_data/hr_data/mlruns/1/models/m-200de3762f5f4f94bfed9ba477efa37a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-200de3762f5f4f94bfed9ba477efa37a
+model_size_bytes: 72302
+model_uuid: m-200de3762f5f4f94bfed9ba477efa37a
+prompts: null
+run_id: 57ea3c5b0eef4780b00ef2a96d0d9a0a
+utc_time_created: '2026-05-07 12:10:46.883625'
